@@ -8,6 +8,7 @@ origin license
 - Visual Studio 2015/17,
 - .NET Framework 4.6
 - SignalR
+- WPF(MVVM Pattern ViewModel)
 
 ## Acknowledgements
 - [MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
