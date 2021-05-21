@@ -5,7 +5,7 @@ origin license
 
 [github](https://github.com/MeshackMusundi/SignalChat).
 ## Requirements
-- Visual Studio 2015/17,
+- Visual Studio 2015/17/19,
 - .NET Framework 4.6
 - SignalR
 - WPF(MVVM Pattern ViewModel)
