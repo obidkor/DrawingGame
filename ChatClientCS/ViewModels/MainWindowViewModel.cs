@@ -453,7 +453,10 @@ namespace ChatClientCS.ViewModels
             {
                 //var recepient = _selectedParticipant.Name;
                 await chatService.SendBroadcastMessageAsync(_textMessage);
-                await chatService.SendAnswerAsync(_textMessage);
+                if (!IsHost && IsInGame)
+                {
+                    await chatService.SendAnswerAsync(_textMessage);
+                }
                 return true;
             }
             catch (Exception) { return false; }
